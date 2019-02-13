@@ -3,7 +3,7 @@
 
 #ifdef ESP8266
   #include <pgmspace.h>
-#elseif __AVR__
+#elif __AVR__
   #include <avr/pgmspace.h>
 #endif 
 
